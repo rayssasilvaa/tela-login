@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Fazer Login</title>
+</head>
+<body>
+    <!-- header e menu -->
+    <header>
+        <menu>
+            <h1>Planet</h1>
+            <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+            </nav>
+            <button><a href="#">entrar</a></button>
+        </menu>
+    </header>
+    <!-- fim do menu -->
+    <main>
+        <section id="Login">
+            <h1>Faça seu login</h1>
+            <!-- caixas de login -->
+            <div id="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" required autocomplete="off" class="input">
+            </div>
+            <div id="senha">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" required class="input">
+            </div>
+            <!-- fim das caixas -->
+
+            <!-- informaçoes -->
+            <div>
+                <a href="#" id="forgot">Esqueci minha senha</a>
+
+                <input type="checkbox" name="checkbox" id="ckb"><span id="remember">lembre de mim</span>
+
+                <input type="button" value="Entrar" id="btn" >
+
+                <a href="#" id="create">Ainda não tenho conta</a>
+            </div>
+
+            <!-- entrar com redes sociais -->
+            <div id="sociais">
+                <img src="assets/face.png" alt="icon-facebook" class="icon">
+
+                <img src="assets/google.png" alt="icon-google" class="icon">
+
+                <img src="assets/apple.png" alt="icon-apple" class="icon">
+            </div>
+            <!-- fim -->
+        </section>
+        <!-- imagem do main -->
+        <section id="image">
+            <img src="assets/image.png" >
+        </section>
+    </main>
+</body>
+</html>
